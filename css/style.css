@@ -101,7 +101,7 @@ h3{font-size: var(--fs-h3);}
 
 .section__title--intro{
     font-weight: var(--fw-reg);
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .section__title--intro strong{
@@ -110,13 +110,13 @@ h3{font-size: var(--fs-h3);}
 
 .section__subtitle{
     margin: 0;
-    font-size: var(--fs-h3);
+    /* font-size: var(--fs-h3); */
 }
 
 .section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: .25em .7em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
@@ -190,10 +190,12 @@ h3{font-size: var(--fs-h3);}
         width: 30%;
     }
     .section__subtitle--intro{
-        font-size: 17px;
+        /* font-size: 15px; */
+        /* border: 1px solid red; */
+        width: 65%;
     }
     .section__title--intro {
-        font-size: 30px;
+        /* font-size: 30px; */
     }
 
 }
@@ -247,20 +249,15 @@ h3{font-size: var(--fs-h3);}
     /* border: 1px solid red; */
     width: fit-content;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: .5em;
     /* color: var(--clr-accent); */
-}
-
-.services {
-    
- 
 }
 
 
 .service {
     width: 16em;
-    height: 17em;
+    height: 25em;
     box-shadow: var(--bs);
 }
 
@@ -314,7 +311,7 @@ h3{font-size: var(--fs-h3);}
     /* border: 1px solid purple; */
     text-align: justify;
     width: 85%;
-    height: 10em;
+    height: 21em;
     margin: 0 auto;
     margin-top: 1em;
     margin-bottom: 2em;
@@ -438,7 +435,7 @@ h3{font-size: var(--fs-h3);}
 /* !! */
 .about_me_container {
     width: 16em;
-    height: 27em;
+    height: 29em;
     /* border: 1px solid red; */
 }
 .profile_pic{
@@ -584,27 +581,22 @@ h3{font-size: var(--fs-h3);}
 
 .contact_me_container{
     border-bottom-right-radius: 50px;
-    /* border: 1px solid red; */
 }
 .contact_me_container {
-    /* background: linear-gradient(to right, #3494e6, #16e0bd); */
     box-shadow: var(--bs);
 }
 .contact_item_whole_container {
-    /* border: 1px solid red; */
     width: 85%;
     margin: 0 auto;
     margin-top: 4em;
     
 }
 .contact_item_whole {
-    /* border: 1px solid blue; */
     display: flex;
     margin-bottom: 1em;
 }
 .contact_link_img {
     width: 8%;
-    /* border: 1px solid red; */
     align-self: center;
 }
 .contact_link_img img {
@@ -614,6 +606,11 @@ h3{font-size: var(--fs-h3);}
     text-decoration: none;
     margin-left: 10px;
     font-size: 13px;
-    /* align-self: center; */
-    /* border: 1px solid red; */
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 2em;
+    background: rgb(5, 18, 34);
 }
