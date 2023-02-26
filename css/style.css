@@ -578,20 +578,22 @@ h3{font-size: var(--fs-h3);}
     /* color: blue; */
     font-weight: 500;
     margin-left: 5px;
-    font-size: 15px;
-    word-spacing: -1.5px;
+    font-size: 13px;
 }
 .experience {
     /* border: 1px solid red; */
     margin-bottom: 1em;
-    word-spacing: -2px;
     /* width: 90%; */
     float: right;
 }
 .experience p {
     font-size: 11px;
     font-style: italic;
-    word-spacing: -1px;
+}
+@media (max-width: 900px) {
+    .experience p {
+        word-spacing: -3px;
+    }
 }
 .experience_links_container{
     /* border: 1px solid red; */
