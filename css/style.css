@@ -117,6 +117,7 @@ h3{font-size: var(--fs-h3);}
     padding: .25em .7em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    font-size: 15px;
 }
 
 .nav_container_whole {
@@ -134,7 +135,7 @@ h3{font-size: var(--fs-h3);}
     width: fit-content;
     margin: 0 auto;
     /* margin: auto 0; */
-    margin-top: .5em;
+    margin-top: 1em;
     /* border: 1px solid yellow; */
 }
 .nav_item1_container a {
@@ -263,7 +264,7 @@ h3{font-size: var(--fs-h3);}
 
 .service {
     width: 16em;
-    height: 25em;
+    height: 27em;
     box-shadow: var(--bs);
 }
 
@@ -317,10 +318,10 @@ h3{font-size: var(--fs-h3);}
     /* border: 1px solid purple; */
     text-align: justify;
     width: 85%;
-    height:13em;
+    height:14em;
     margin: 0 auto;
     margin-top: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 5.5em;
     font-size: 13px;
 }
 /* !! */
@@ -578,6 +579,7 @@ h3{font-size: var(--fs-h3);}
     font-weight: 500;
     margin-left: 5px;
     font-size: 15px;
+    word-spacing: -1.5px;
 }
 .experience {
     /* border: 1px solid red; */
@@ -589,6 +591,7 @@ h3{font-size: var(--fs-h3);}
 .experience p {
     font-size: 11px;
     font-style: italic;
+    word-spacing: -1px;
 }
 .experience_links_container{
     /* border: 1px solid red; */
