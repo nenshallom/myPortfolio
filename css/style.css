@@ -583,16 +583,17 @@ h3{font-size: var(--fs-h3);}
 .experience {
     /* border: 1px solid red; */
     margin-bottom: 1em;
-    /* width: 90%; */
+    width: 95%;
     float: right;
 }
 .experience p {
     font-size: 11px;
     font-style: italic;
+    /* border: 1px solid red; */
 }
 @media (max-width: 900px) {
     .experience p {
-        word-spacing: -3px;
+        word-spacing: -1px;
     }
 }
 .experience_links_container{
