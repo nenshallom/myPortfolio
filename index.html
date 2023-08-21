@@ -12,35 +12,41 @@
 </head>
 <body>
     <nav class="nav_container_whole">
-        <ul class="nav_items_entire">
+        <ul id="nav_items_entire" class="nav_items_entire">
             
-            <li class="nav_item_container">
-              <a href="https://drive.google.com/file/d/1didhcgHOO-3Wy91oL3vhVbeEr795MPgZ/view?usp=sharing" class="nav_item">CV</a>
+            <li id="nav_item_container" class="nav_item_container">
+              <a href="https://drive.google.com/file/d/1-EF_k8coXqHViE_AcUdJrpZeyi1Nabfb/view?usp=sharing" class="nav_item">CV</a>
             </li>
 
-            <li class="nav_item_container">
+            <li id="nav_item_container" class="nav_item_container">
               <a href="https://www.linkedin.com/in/nenshallom/" class="nav_item">LinkedIn</a>
             </li>
 
-            <li class="nav_item_container">
+            <li id="nav_item_container" class="nav_item_container">
               <a href="https://github.com/shallomflex" class="nav_item">Repository</a>
             </li>
 
-            <li class="nav_item_container">
+            <li id="nav_item_container" class="nav_item_container">
                 <a href="https://drive.google.com/drive/folders/1X9hPItPboXZEJrX_e7qACpN4HLIZwz8I?usp=sharing" class="nav_item">Certifications</a>
               </li>
 
-            <li class="nav_item_container">
+            <!-- <li class="nav_item_container">
                 <a href="#" class="nav_item">Blog</a>
-              </li>
+              </li> -->
 
         </ul>
+
+        <div id="hamburger" class="hamburger">
+            <span id="bar"></span>
+            <span id="bar" style="width: 20px; background: rgba(0, 0, 0, 0.784);"></span>
+            <span id="bar" style="width: 15px;"></span>
+        </div>
     </nav>
 
     <!-- introduction -->
     <section class="intro" id="welcome_section">
         <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Nendang Shallom Goshit</strong>
+            Hi, I am <strong id="my_name">Nendang Shallom Goshit</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
         <img src="./images/googledev.png" alt="a picture of Nendang Shallom Goshit" class="intro__img">
@@ -320,5 +326,6 @@
         
     </footer>
     <script src="./js/index.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
