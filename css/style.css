@@ -121,6 +121,13 @@ h3{font-size: var(--fs-h3);}
     font-weight: bold;
     letter-spacing: 5px;
 }
+@media (max-width: 450px) {
+    #section__subtitle {
+        /* color: red; */
+        /* letter-spacing: 1.5px; */
+        width: 100%;
+    }
+}
 
 nav {
     height: 4.5em; 
@@ -217,7 +224,7 @@ nav li a:hover {
     .section__subtitle--intro{
         /* font-size: 15px; */
         /* border: 1px solid red; */
-        width: 60%;
+        width: 100%;
     }
 
 }
