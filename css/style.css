@@ -133,7 +133,7 @@ nav {
     height: 4.5em; 
     position: fixed;
     width: 100%;
-    background:rgb(253 253 253 / 97%);
+    background-color:  #FAF9F6;
     z-index: 100;
     display: flex;
     align-items: center;
@@ -145,10 +145,11 @@ nav ul {
     margin: 0 auto;
 }
 nav li {
-    margin: 0 .1rem;
+    margin: 0 1rem;
     list-style: none;
     position: relative;
     overflow: hidden;
+    /* border: 1px solid red; */
 }
 nav li:after {
     content: "";
@@ -159,7 +160,7 @@ nav li:after {
     width: 100%;
     scale: 0 1;
     transition: scale 300ms, translate 500ms;
-    background: #16e0bd;
+    background: #16e0be1a;
 }
 nav li:hover::after {
     scale: 1 1;
