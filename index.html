@@ -2,237 +2,498 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S86X5J8G0V"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-S86X5J8G0V');
-    </script>
-    <title>Nendang Shallom Goshit</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900">
-    <link rel="icon" type="image/x-icon" href="./images/NSG.png">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
 </head>
 <body>
-    <nav class="nav_container_whole">
-        <ul id="nav_items_entire" class="nav_items_entire">
-     
-            <li id="nav_item_container" class="nav_item_container">
-              <a href="https://www.linkedin.com/in/nenshallom/" class="nav_item">LinkedIn</a>
-            </li>
+   <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">Portfolio</a>
 
-                   
-            <li id="nav_item_container" class="nav_item_container">
-                <a href="https://docs.google.com/document/d/1xKuTQ9I71B-PwPfRb9oCStRNwykg_S-qAanL41u5tWA/edit?usp=sharing" class="nav_item">Resume</a>
-            </li>
+        <!-- hamburger -->
+        <i class='bx bx-menu' style='color:#ffffff' id="menu-icon" ></i>
 
-            <li id="nav_item_container" class="nav_item_container">
-              <a href="https://github.com/nenshallom" class="nav_item">Github</a>
-            </li>
+        <!-- nav items -->
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    
+    </header>
 
+    <!-- bars  -->
+     <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+     </div>
 
-        </ul>
-
-        <div id="hamburger" class="hamburger">
-            <span id="bar"></span>
-            <span id="bar" style="width: 20px; background: rgba(0, 0, 0, 0.784);"></span>
-            <span id="bar" style="width: 15px;"></span>
+    <!-- home section -->
+     <section class="home active">
+        <div class="home-detail">
+            <h1>Nendang Shallom Goshit</h1>
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:3;" data-text="Youtuber">Youtuber</span>
+                <span style="--i:2;" data-text="Blogger">Blogger</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>I’m a passionate frontend developer with a B.Tech in Computer Science and hands-on experience building responsive, user-friendly web applications. Skilled in HTML, CSS, JavaScript, and React.js, I thrive on creating impactful digital solutions.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/nenshallom"><i class='bx bxl-github' undefined ></i></a>
+                    <a href="https://www.linkedin.com/in/nenshallom/"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="https://www.facebook.com/shallom.nendang"><i class='bx bxl-facebook-circle' ></i></a>
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <!-- introduction -->
-    <section class="intro" id="welcome_section">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong id="my_name">Nendang Shallom Goshit</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro" id="section__subtitle">Front-End Developer</p>
-        <img src="./images/googledev.png" alt="a picture of Nendang Shallom Goshit" class="intro__img">
-    </section>
-
-    <!-- My services -->
-  <section class="my_services">
-    <h2>Project</h2>
-    <div class="services_entire_container">
-        <div class="service_container container1" id="container1">
-            <!-- Content of service goes here -->
-            <div class="service_container_content">
-                <div class="project_title">
-                    <div class="project_logo">
-                        <img src="./images/Ggn-logo.png" alt="GGN logo">
-                    </div>
-                    <h3>GreenGrowsNatural</h3>
+        <!-- portfolio home profile image -->
+         <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./images/my_profile_picture.png" alt="my profile picture">
                 </div>
-                <div class="project_details">
-                    <p>GGN addresses a critical issue by connecting buyers with local farmers, enabling affordable food purchases. The platform's user-friendly interface, sleek design, and responsiveness enhance user experience. Beyond commerce, GGN is dedicated to combating climate change through initiatives like tree planting and raising environmental awareness. Our goal is to foster sustainable practices, discouraging deforestation and empowering locals to understand their environmental impact.</p>
-                </div>
+            </div>
+         </div>
 
-                <div class="project_tech">
-                    <h4>Built using</h4>
-                    <div class="technologies">
-                        <div class="tech">
-                            <div class="tool">
-                                <img src="./images/html-5-svgrepo-com.svg" alt="html logo">
-                            </div>
-                            <div class="tool">
-                                <img src="./images/css-3-svgrepo-com.svg" alt="css logo">
-                            </div>
-                            <div class="tool">
-                                <img src="./images/js-svgrepo-com.svg" alt="js logo">
-                            </div>
-                            <div class="tool">
-                                <img src="./images/zapier-svgrepo-com.svg" alt="zapier logo">
-                            </div>
+     </section>
+
+     <!-- services section -->
+      <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ducimus.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ducimus.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ducimus.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-trending-up' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ducimus.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ducimus.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ducimus.</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Resume section -->
+       <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, minus!</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorem similique at ipsa pariatur tempora accusamus sapiente quia impedit incidunt?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023 - present</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">Abc Corp</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
                         </div>
+
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Full Stack Developer</h3>
+                            <p class="company">Bca Corp</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>Backend Developer</h3>
+                            <p class="company">Cba Corp</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2020 - 2021</p>
+                            <h3>UI/UX Designer</h3>
+                            <p class="company">Xyz  Corp</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2019 - 2020</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">Ftr  Inc</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2018 - 2029</p>
+                            <h3>Youtuber</h3>
+                            <p class="company">Wret Association</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorem similique at ipsa pariatur tempora accusamus sapiente quia impedit incidunt?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Programming Course</h3>
+                            <p class="company">Causera</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023</p>
+                            <h3>Degree Computer Science</h3>
+                            <p class="company">ATBU university </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Data-decision</h3>
+                            <p class="company">Causera</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2019</p>
+                            <h3>Wordpress Development</h3>
+                            <p class="company">Idea Star</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2018</p>
+                            <h3>frontend Master</h3>
+                            <p class="company">Frontend Masters</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2017</p>
+                            <h3>using AI</h3>
+                            <p class="company">Causera</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maxime?</p>
+                        </div>
+                    </div>
+                        
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorem similique at ipsa pariatur tempora accusamus sapiente quia impedit incidunt?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-bootstrap' ></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-wordpress' ></i>
+                            <span>Wordpress</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-python' ></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">My <span>About</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorem similique at ipsa pariatur tempora accusamus sapiente quia impedit incidunt?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Nendang Shallom Goshit</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Jos, Plateau State</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Nigerian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span> 2+ Years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Contract <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Volunteer <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>(+234) 704-781-4457</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>sshallom92@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- portfolio -->
+        <section class="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <div class="portfolio-detail active">
+                        <p class="numb">01</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus accusamus beatae soluta debitis veniam nobis non dignissimos eum aliquid.</p>
+                        <div class="tech">
+                            <p>HTML5, CSS3, Javascript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-detail">
+                        <p class="numb">02</p>
+                        <h3>Backend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus accusamus beatae soluta debitis veniam nobis non dignissimos eum aliquid.</p>
+                        <div class="tech">
+                            <p>HTML5, CSS3, Javascript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-detail">
+                        <p class="numb">03</p>
+                        <h3>Fullstack Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus accusamus beatae soluta debitis veniam nobis non dignissimos eum aliquid.</p>
+                        <div class="tech">
+                            <p>HTML5, CSS3, Javascript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-detail">
+                        <p class="numb">04</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus accusamus beatae soluta debitis veniam nobis non dignissimos eum aliquid.</p>
+                        <div class="tech">
+                            <p>HTML5, CSS3, Javascript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-detail">
+                        <p class="numb">05</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus accusamus beatae soluta debitis veniam nobis non dignissimos eum aliquid.</p>
+                        <div class="tech">
+                            <p>HTML5, CSS3, Javascript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-detail">
+                        <p class="numb">06</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus accusamus beatae soluta debitis veniam nobis non dignissimos eum aliquid.</p>
+                        <div class="tech">
+                            <p>HTML5, CSS3, Javascript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div> 
                     </div>
                 </div>
                 
-                <div class="project_link">
-                    <div class="link_icon">
-                        <a href="https://ggnfarm.netlify.app/" target="_blank">
-                            <img src="./images/link-external-01-svgrepo-com.svg" alt="" srcset="">
-                        </a>
-                    </div>
-                    <div class="link_icon">
-                        <a href="https://github.com/nenshallom/GGN-main.git" target="_blank">
-                            <img src="./images/github.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>    
-        </div>
-    </div>
-  </section>
-
-    <!-- About Me -->
-    <section class="about__me" id="about">
-        <h2 class="section__title section__title--about">About Me</h2>
-        <p class="section__subtitle section__subtitle--about">Creative, Self-Motivated, Postive-minded </p>
-
-        <!--about me containers  -->
-        <div class="about_me_container_whole">
-            <div class="about_me_container personal_container">
-                <div class="profile_pic">
-                    <div class="profile_icon">
-                        <img class="profile_pic" src="./images/profile-circle-svgrepo-com.svg" alt="">
-                    </div>
-                </div>
-                <div class="about_me_text about_text">
-                    <h3>Personal</h3>
-                    <div class="underline"></div>
-                    <p>Hi, I'm a front-end developer with a keen eye for design and a passion for crafting user-friendly websites. I specialize in HTML, CSS, JavaScript, and React and love finding creative solutions to complex problems. When not coding, I enjoy hiking, sightseeing, reading books and playing video games with friends.</p>
-                </div>
-                <div class="about_me_skills">
-                    <div class="skills_entire_container">
-                        <div class="skills_img">
-                            <img src="./images/brain-3-svgrepo-com.svg" alt="">
+                <div class="portfolio-box">
+                    <!-- image carousel -->
+                     <div class="portfolio-carousel">
+                        <div class="img-slide">
+                            <div class="img-item">
+                                <img src="./images/GGNscreenshot.png" alt="project image">
+                            </div>
+                            <div class="img-item">
+                                <img src="./images/GGNscreenshot.png" alt="project image">
+                            </div>
+                            <div class="img-item">
+                                <img src="./images/GGNscreenshot.png">
+                            </div>
+                            <div class="img-item">
+                                <img src="./images/GGNscreenshot.png" alt="project image">
+                            </div>
+                            <div class="img-item">
+                                <img src="./images/GGNscreenshot.png" alt="project image">
+                            </div>
+                            <div class="img-item">
+                                <img src="./images/GGNscreenshot.png" alt="project image">
+                            </div>
                         </div>
-                        <h3>Skills</h3>
+                     </div>
+
+                     <div class="navigation">
+                        <button class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+                        <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+                     </div>
+
+                </div>
+            </div>     
+        </section>
+
+        <!-- contact me section -->
+         <section class="contact">
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h2>Let's Work Together</h2>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ea harum iusto dolores magni illo earum ipsum aliquam deserunt similique.</p>
+                    <div class="contact-detail">
+                        <i class='bx bxs-phone'></i>
+                        <div class="detail">
+                            <p>Phone</p>
+                            <p>(+234) 7047814457</p>
+                        </div>
                     </div>
-                    <div class="underline"></div>
-                    <ul>
-                        <li>Proficiency in front-end programming languages/frameworks.</li>
-                        <li>Adaptability.</li>
-                        <li>Strong Analytical skill.</li>
-                        <li>Fast Learner.</li>
-                        <li>Effective commnication skill.</li>
-                    </ul>
+                    <div class="contact-detail">
+                        <i class='bx bxs-envelope' ></i>
+                        <div class="detail">
+                            <p>Email</p>
+                            <p>sshallom92@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class='bx bxs-map' ></i>
+                        <div class="detail">
+                            <p>Address</p>
+                            <p>Jos, Plateau State, Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <form action="">
+                        <h2 class="heading">Contact <span>Me!</span></h2>
+                        <div class="field-box">
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Emaill Address">
+                            <input type="text" placeholder="Phone Number">
+                            <input type="text" placeholder="Email subject">
+                            <textarea name="" id="" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
                 </div>
             </div>
-            <div class="about_me_container professional_container">
-                <div class="profile_pic">
-                    <div class="profile_icon">
-                        <img class="profile_pic" src="./images/code-circle-svgrepo-com.svg" alt="">
-                    </div>
-                </div>
-                <div class="about_me_text about_text">
-                    <h3>Resumé/Certification</h3>
-                    <div class="underline"></div>
-                    <div class="experience_container_whole">
-                        <div class="experience_container">
-                            <div class="experience_date">
-                                <p><span class="date">2023</span><span class="experience_loc">Computer Science Deg.</span></p>
-                            </div>
-                            <div class="experience">
-                                <p>Bachelor of Technology(B.tech) Computer Science.</p>
-                            </div>
-                        </div>
-                        <div class="experience_container">
-                            <div class="experience_date">
-                                <p><span class="date">2022 </span><span class="experience_loc">YC Startup School</span></p>
-                            </div>
-                            <div class="experience">
-                                <p>Learned what is takes to run a Startup, work in teams & grow a company.</p>
-                            </div>
-                        </div>
-                        <div class="experience_container">
-                            <div class="experience_date">
-                                <p><span class="date">2021</span><span class="experience_loc">BaseCamp Internship</span></p>
-                            </div>
-                            <div class="experience">
-                                <p>Remote internship on web development.</p>
-                            </div>
-                        </div>
-                        <div class="experience_container">
-                            <div class="experience_date">
-                                <p><span class="date">2020</span><span class="experience_loc">nHub Foundation</span></p>
-                            </div>
-                            <div class="experience">
-                                <p>Web development, UI/UX & HCI experiences gained.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="experience_links_container">
-                        <div class="cv_link">
-                            <img src="./images/link-external-01-svgrepo-com.svg" alt="">
-                            <a href="https://drive.google.com/file/d/1ZA9ji_RUlarHdphf6GY-VAmdSDGy8r0J/view?usp=sharing">view cv</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about_me_container contact_me_container">
-                <div class="profile_pic">
-                    <div class="profile_icon">
-                        <img class="profile_pic" src="./images/contact-card-svgrepo-com.svg" alt="">
-                    </div>
-                </div>
-                <div class="about_me_strength about_text">
-                    <h3>Reach Me!</h3>
-                    <div class="underline"></div>
-                    <div class="contact_item_whole_container">
-                        <div class="contact_item_whole">
-                            <div class="contact_link_img">
-                                <img src="./images/google_mail.svg" alt="">
-                            </div>
-                            <a href="mailto: sshallom92@gmail.com" >sshallom92@gmail.com</a>
-                        </div>
-                        <div class="contact_item_whole">
-                            <div class="contact_link_img">
-                                <img src="./images/linkedin-.svg" alt="">
-                            </div>
-                            <a href="https://www.linkedin.com/in/nenshallom" target="_blank">Nendang Shallom Goshit</a>
-                        </div>
-                        <div class="contact_item_whole">
-                            <div class="contact_link_img">
-                                <img src="./images/github.svg" alt="">
-                            </div>
-                            <a href="https://github.com/shallomflex" target="_blank">Nendang Shallom Goshit</a>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+         </section>
 
-    <footer>
-        
-    </footer>
-    <script src="./js/index.js"></script>
-    <script src="./script.js"></script>
+<!-- JAVASCRIPT -->
+       <script src="./script.js"></script>
+       <!-- Google Analytics -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-S86X5J8G0V"></script>
+       <script>
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+   
+           gtag('config', 'G-S86X5J8G0V');
+       </script>
 </body>
 </html>
