@@ -21,6 +21,9 @@ html {
 body {
     color: var(--white-color);
 }
+img {
+    max-inline-size: 100%;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -492,6 +495,12 @@ section.active {
     margin-left: 1rem;
     font-size: 1.8rem;
 }
+.resume-detail.about .resume-item p .community a{
+    color: skyblue;
+}
+.resume-detail.about .resume-item p .community a:hover{
+    text-decoration: underline;
+}
 
 /* portfolio */
 .portfolio-container {
@@ -568,7 +577,8 @@ section.active {
 /* image carousel */
 .portfolio-box .portfolio-carousel {
     width: 100%;
-    height: 45rem;
+    /* height: 45rem; */ /* set's a specific height for the image*/
+    align-items: center;
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -582,13 +592,17 @@ section.active {
 }
 .portfolio-carousel .img-item {
     height: inherit;
+    align-items: center;
+    /* border: 1px solid red; */
+    display: flex;
 }
 .portfolio-carousel .img-item img {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    /* width: 100%; */ /* fills the given 45rem height & weight*/
+    /* height: 100%; */
+    /* object-fit: contain; */
     border-radius: 1rem;
+    /* border: 1px solid red; */
 }
 .portfolio-box .navigation {
     text-align: right;
